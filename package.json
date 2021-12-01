@@ -1,0 +1,20 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Advent of code solutions in typescript",
+  "main": "dist/run.js",
+  "scripts": {
+    "build": "tsc",
+    "module": "npm run build && node dist/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlgre/adventofcode.git"
+  },
+  "author": "Luke Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlgre/adventofcode/issues"
+  },
+  "homepage": "https://github.com/jlgre/adventofcode#readme"
+}
