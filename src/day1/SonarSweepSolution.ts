@@ -8,7 +8,7 @@ export class SonarSweepSolution implements Solution {
         this.data = data;
     }
 
-    public solver(data: number[]) : number {
+    public basicSolver(data: number[]) : number {
         let previous : number | undefined;
         let count = 0;
         data.forEach((val) => {
@@ -22,7 +22,19 @@ export class SonarSweepSolution implements Solution {
         return count;
     }
 
-    public solve() : number {
-        return this.solver(this.data);
+    public augmentedSolver(data: number[]) : number {
+        let count = 0;
+        for (let i = 0; i < data.length - 3; i++) {
+            if (data[i] < data[i + 3]) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public solve() : void {
+        console.log(`Basic: ${this.basicSolver(this.data)}`);
+        console.log(`Augmented: ${this.augmentedSolver(this.data)}`);
     }
 }

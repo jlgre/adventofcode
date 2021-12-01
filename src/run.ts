@@ -9,7 +9,7 @@ const classMap : Record<inputOptions, Solution> = {
 };
 
 function run(module: Solution) : void{ 
-    console.log(module.solve());
+    module.solve();
 }
 
 if (process.argv.length < 3) {
