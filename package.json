@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jlgre/adventofcode/issues"
   },
-  "homepage": "https://github.com/jlgre/adventofcode#readme"
+  "homepage": "https://github.com/jlgre/adventofcode#readme",
+  "dependencies": {
+    "@types/node": "^16.11.11"
+  }
 }
