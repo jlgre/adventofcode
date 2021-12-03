@@ -14,7 +14,7 @@ Repo for my 2021 Advent of code solutions
 
 * [X] Day 1 - ⭐⭐ | Typescript
 * [X] Day 2 - ⭐⭐ | Typescript
-* [ ] Day 3
+* [X] Day 3 - ⭐⭐ | Typescript
 * [ ] Day 4
 * [ ] Day 5
 * [ ] Day 6
