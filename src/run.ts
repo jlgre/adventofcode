@@ -1,11 +1,14 @@
 import { Solution } from './Solution';
 import { SonarSweepSolution } from './day1/SonarSweepSolution';
+import { DiveSolution } from './day2/DiveSolution';
 
 type inputOptions = 
-    '1';
+    '1'|
+    '2';
 
 const classMap : Record<inputOptions, Solution> = {
-    '1': new SonarSweepSolution
+    '1': new SonarSweepSolution,
+    '2': new DiveSolution
 };
 
 function run(module: Solution) : void{ 
